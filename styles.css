@@ -6,36 +6,42 @@ body {
 
 h1 {
   line-height: 1.85;
-  color: #66BFBF;
+  color: #ff6f3c;
   font-size: 5.625rem;
   margin-top: 50px;
   font-family: 'Sacramento', cursive;
 }
 
 h2 {
-  color: #66BFBF;
+  color: #ff6f3c;
   font-weight: normal;
   font-size: 1.8rem;
   font-family: 'Montserrat', sans-serif;
 }
 
 h3 {
-  color: #11999E;
+  color: #ff9a3c;
   font-family: 'Montserrat', sans-serif;
 }
 
 .top-container {
-  background-color: #e8ffff;
+  background-color: #155263;
   padding-top: 100px;
   position: relative;
 }
 
 .middle-container {
-
+  position: relative;
 }
 
-.bottom-container {
+/*Mexe com a parte da foto do perfil*/
+.profile {
+  padding-top: 10px;
+}
 
+/*Mexe com o rodape do site*/
+.bottom-container {
+  position: relative;
 }
 
 .pro {
@@ -55,10 +61,10 @@ h3 {
 }
 
 .btn {
-  color: #11999E;
+  color: #ff9a3c;
 }
 
 .footer-link {
-  color: #11999E;
+  color: #ff9a3c;
   margin: 5px;
 }
