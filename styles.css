@@ -2,6 +2,7 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Merriweather Sans', sans-serif;
+  position: relative;
 }
 
 h1 {
@@ -24,6 +25,45 @@ h3 {
   font-family: 'Montserrat', sans-serif;
 }
 
+.ini-border {
+  margin: 100px auto 100px;
+  color: #dbedf3;
+  border-style: dotted;
+  border-bottom: none;
+  border-width: 8px;
+  width: 5%;
+}
+
+.final-border {
+  margin: 100px auto 100px;
+  color: #dbedf3;
+  border-style: dotted;
+  border-bottom: none;
+  border-width: 8px;
+  width: 5%;
+}
+
+.skill-row {
+  padding: 2%;
+  line-height: 2;
+  text-align: left;
+  margin: 100px auto 100px;
+  width: 50%;
+}
+
+.img-videogame {
+  width: 37%;
+  border-radius: 200px;
+  float: right;
+  margin-left: 30px;
+}
+
+.img-programming {
+  width: 35%;
+  float: left;
+  margin-right: 30px;
+}
+
 .top-container {
   background-color: #155263;
   padding-top: 100px;
@@ -36,12 +76,13 @@ h3 {
 
 /*Mexe com a parte da foto do perfil*/
 .profile {
-  padding-top: 10px;
+  padding-top: 50px;
 }
 
 /*Mexe com o rodape do site*/
 .bottom-container {
-  position: relative;
+  height: 150px;
+  background-color: #283149;
 }
 
 .pro {
@@ -60,11 +101,45 @@ h3 {
   bottom: 300px;
 }
 
-.btn {
-  color: #ff9a3c;
+.contact-me {
+  line-height: 2;
+}
+
+.mybutton {
+  margin-top: 20px;
+  margin-bottom: 60px;
+  background: linear-gradient(to bottom, #404b69 2%, #283149 100%);
+  border-radius: 10px;
+  display: inline-block;
+  cursor: pointer;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  padding: 5px 30px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #283966
+}
+
+.mybutton:hover {
+  background: linear-gradient(to bottom, #283149 5%, #404b69 100%);
+}
+
+.mybutton:active {
+  top: 1px;
+  position: relative;
 }
 
 .footer-link {
+  position: relative;
+  top: 30%;
+  left: 1%;
+  margin-right: 30px;
+  text-decoration: none;
   color: #ff9a3c;
-  margin: 5px;
+}
+
+.p-bottom {
+  position: relative;
+  top: 30%;
+  color: #EAF6F6;
 }
