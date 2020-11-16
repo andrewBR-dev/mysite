@@ -143,6 +143,7 @@ hr {
 
 .p-bottom {
   position: relative;
-  top: 30%;
+  top: 40%;
   color: #EAF6F6;
+  font-size: 0.75rem;
 }
