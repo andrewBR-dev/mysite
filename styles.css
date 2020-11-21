@@ -1,110 +1,153 @@
-body {
+* {
+  padding: 0;
   margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1.4rem;
+}
+
+body {
   text-align: center;
-  font-family: 'Merriweather Sans', sans-serif;
-  position: relative;
-}
-
-h1 {
-  line-height: 1.85;
-  color: #ff6f3c;
-  font-size: 5.625rem;
-  margin-top: 50px;
-  font-family: 'Sacramento', cursive;
-}
-
-h2 {
-  color: #ff6f3c;
-  font-weight: normal;
-  font-size: 1.8rem;
-  font-family: 'Montserrat', sans-serif;
-}
-
-h3 {
-  color: #ff9a3c;
   font-family: 'Montserrat', sans-serif;
 }
 
 p {
+  font-size: 20px;
+}
+
+h1 {
+  color: #ff6f3c;
+  font-family: 'Sacramento', cursive;
+  padding-top: 6.8rem;
+  font-size: 4.8125rem;
   line-height: 2;
 }
 
-hr {
+h2 {
+  color: #ff9a3c;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #ffc93c;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*Parte de cima do site*/
+#header-container {
+  background-color: #155263;
+  position: relative;
+  line-height: 1;
+}
+
+.txt-header {
+  line-height: 2;
+}
+
+.img-cloud-container-top {
+  position: absolute;
+  top: 90px;
+  right: 300px;
+}
+
+.img-cloud-container-bottom {
+  position: absolute;
+  left: 380px;
+  bottom: 300px;
+}
+
+/************************/
+
+/*Parte do profile do site*/
+
+#profile-container {
+  margin: 25px;
+}
+
+.txt-profile {
+  line-height: 2;
+  margin: auto;
+  width: 30%;
+}
+
+/************************/
+
+/*A borda que separa o site*/
+.row {
   margin: 100px auto;
   color: #dbedf3;
   border-style: dotted;
   border-bottom: none;
+  border-left: none;
+  border-right: none;
   border-width: 8px;
-  width: 4%;
+  width: 4.4%;
+
 }
 
-.text-profile {
-  width: 30%;
+.row-bottom {
+  margin: 100px auto;
+  color: #dbedf3;
+  border-style: dotted;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  border-width: 8px;
+  width: 7%;
+}
+
+/*Parte das skills do site*/
+
+#skill-container {
   margin: auto;
+  width: 60%;
+
 }
 
-.skill-row {
-  padding: 2%;
+/*Parte de skill/Programming */
+
+.programming-container {
+  display: flex;
+  align-items: center;
+}
+
+.txt-programming {
+  width: 100%;
   text-align: left;
-  margin: 100px auto 100px;
-  width: 50%;
-}
-
-.img-videogame {
-  width: 37%;
-  border-radius: 200px;
-  float: right;
-  margin-left: 30px;
-}
-
-.img-programming {
-  width: 35%;
-  float: left;
-  margin-right: 30px;
-}
-
-.top-container {
-  background-color: #155263;
-  padding-top: 100px;
-  position: relative;
-}
-
-.middle-container {
-  position: relative;
-}
-
-/*Mexe com a parte da foto do perfil*/
-.profile {
-  padding-top: 50px;
-}
-
-/*Mexe com o rodape do site*/
-.bottom-container {
-  height: 150px;
-  background-color: #283149;
-}
-
-.pro {
-  text-decoration: underline;
-}
-
-.top-cloud {
-  position: absolute;
-  top: 50px;
-  right: 400px;
-}
-
-.bottom-cloud {
-  position: absolute;
-  left: 400px;
-  bottom: 300px;
-}
-
-.contact-me {
   line-height: 2;
+  margin-left: 2rem;
 }
 
-.mybutton {
+/*Parte de skill/Videogame */
+
+.videogame-container {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 1.1rem;
+  align-items: center;
+}
+
+.txt-videogame {
+  width: 100%;
+  text-align: right;
+  line-height: 2;
+  margin-right: 2rem;
+}
+
+/***************************/
+
+/*Parte do contato */
+
+#contato-container {
+  line-height: 2;
+  margin-bottom: 50px;
+}
+
+#button-contato {
   margin-top: 20px;
   margin-bottom: 60px;
   background: linear-gradient(to bottom, #404b69 2%, #283149 100%);
@@ -116,34 +159,39 @@ hr {
   font-size: 15px;
   padding: 5px 30px;
   text-decoration: none;
-  text-shadow: 0px 1px 0px #283966
+  text-shadow: 0px 1px 0px #283966;
 }
 
-.mybutton:hover {
+#button-contato:hover {
   background: linear-gradient(to bottom, #283149 5%, #404b69 100%);
 }
 
-.mybutton:active {
-  top: 1px;
-  position: relative;
+/*******************/
+
+/*Parte do rodape do site */
+
+#footer-container {
+  padding-top: 10px;
+  line-height: 2;
+  background-color: #16213e;
+  height: 120px;
 }
 
-.footer-link {
-  position: relative;
-  top: 30%;
-  left: 1%;
-  margin-right: 30px;
-  text-decoration: none;
+.a-footer {
+
   color: #ff9a3c;
+  display: inline-block;
+  margin: auto 10px;
+  text-decoration: none;
 }
 
-.footer-link:hover {
-  color: #f3eac2;
+.a-footer:hover {
+  color: #fff8c1;
 }
 
-.p-bottom {
-  position: relative;
-  top: 40%;
-  color: #EAF6F6;
-  font-size: 0.75rem;
+#p-bottom {
+  color: #ffffff;
+  font-style: italic;
+  font-size: 15px;
 }
+/*************************/

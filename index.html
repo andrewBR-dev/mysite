@@ -1,74 +1,96 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Montserrat:wght@500&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Andrew's Site.</title>
+  </head>
+  <body>
 
-<head>
+    <header>
 
-  <meta charset="utf-8">
-  <title>Andrew's Site</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="icon" href="man.png">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@500&family=Montserrat:wght@500&family=Sacramento&display=swap" rel="stylesheet">
+      <div id="header-container">
+        <img class="img-cloud-container-top" src="cloud.png" alt="img-cloud">
+        <img class="img-cloud-container-bottom" src="cloud.png" alt="img-cloud">
+      <div class="txt-header">
 
-</head>
-
-<body>
-
-  <div class="top-container">
-    <img class="top-cloud" src="cloud.png" alt="cloud-img">
-    <h1>Eu sou André.</h1>
-    <h2 class="p-h1">Um futuro programador.</h2>
-    <img class="bottom-cloud" src="cloud.png" alt="cloud-img">
-    <img class="moutain" src="mountain.png" alt="mountain-img">
-
-  </div>
-  <div class="middle-container">
-
-    <div class="profile">
-
-      <img class="img-profile" src="myprofilephoto.png" alt="profilephoto-img">
-      <h2>Olá.</h2>
-      <p class="text-profile">Eu sou brasileiro, tenho 20 anos, sou estudante de programação e este é um site de apresentação para testar o meu conhecimento.</p>
-
-    </div>
-    <hr class="ini-border">
-
-    <div class="skills">
-      <h2>Minhas Habilidades.</h2>
-      <div class="skill-row">
-        <img class="img-programming" src="computer.png" alt="programming-img">
-
-        <h3>Programar.</h3>
-        <p>Aprendi a programar em 2019, no entanto só em 2020 me aperfeiçoei o bastante para fazer um site como este :)</p>
+        <h1>Eu sou André.</h1>
+        <h2>Um programador.</h2>
 
       </div>
-      <div class="skill-row">
-        <img class="img-videogame" src="videogame.gif" alt="videogame-img">
+        <img src="mountain.png" alt="img-mountain">
+      </div>
 
-        <h3>Video Games.</h3>
-        <p>Além de programar, me aprofundar em jogos é uma habilidade que me segue desde a infância e perdura até hoje.</p>
+    </header>
+
+
+    <section id="profile-container">
+
+      <div class="img-profile">
+        <img src="myprofilephoto.png" alt="img-profile">
+      </div>
+
+      <div class="txt-profile">
+        <h2>Ola.</h2>
+        <p>Eu sou brasileiro, tenho 20 anos, sou estudante de programação
+           e este é um site de apresentação para testar o meu conhecimento.</p>
+      </div>
+
+    </section>
+
+    <hr class="row">
+
+    <section id="skill-container">
+      <div class="programming-container">
+
+        <div class="img-programming">
+          <img src="computer.png" alt="img-computer" width="350px" height="350px">
+        </div>
+
+        <div class="txt-programming">
+          <h2>Programacao</h2>
+          <p>Aprendi a programar em 2019, no entanto só em 2020 me
+             aperfeiçoei o bastante para fazer um site como este :)</p>
+        </div>
 
       </div>
-    </div>
-    <hr class="final-border">
-    <div class="contact-me">
 
-      <h2>Entre em contato.</h2>
-      <h3>Gosta de jogos e programar tanto quanto eu?</h3>
-      <p>Se sim, me manda uma mensagem e vamos bater um papo ou até fazer um site.</p>
-      <a class="mybutton" href="mailto:andreherculanoMB@gmail.com">CONTACT ME</a>
+      <div class="videogame-container">
 
-    </div>
-  </div>
+        <div class="img-videogame">
+          <img src="videogame.gif" alt="gif-videogame" width="400px" height="350px" style="border-radius: 160px;">
+        </div>
 
+        <div class="txt-videogame">
+          <h2>Video game</h2>
+          <p>Além de programar, me aprofundar em jogos é
+            uma habilidade que me segue desde a infância e perdura até hoje.</p>
+        </div>
 
-  <div class="bottom-container">
+      </div>
 
-    <a class="footer-link" href="https://www.linkedin.com/in/andr%C3%A9-herculano-89a3871ba/">LinkedIn</a>
-    <a class="footer-link" href="#">Website</a>
-    <p class="p-bottom">© 2020 Andrew.</p>
+      <hr class="row-bottom">
 
-  </div>
-</body>
+      <div id="contato-container">
 
+        <h2>Entre em contato.</h2>
+        <h3>Gosta de jogos e programar tanto quanto eu?</h3>
+        <p>Se sim, me manda uma mensagem e vamos bater um papo ou até fazer um site.</p>
+        <a id="button-contato" href="mailto:andreherculanoMB@hmail.com">CONTATO</a>
+
+      </div>
+
+    </section>
+
+    <footer>
+      <div id="footer-container">
+        <a class="a-footer" href="#">LinkedIn</a>
+        <a class="a-footer" href="#">Website</a>
+        <p id="p-bottom">@Andrew</p>
+      </div>
+    </footer>
+
+  </body>
 </html>
