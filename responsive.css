@@ -240,7 +240,7 @@
   }
 }
 
-@media (min-width: 426px) and (max-width: 767px) {
+@media (max-width: 426px) {
   html {
     font-size: 62%;
   }
@@ -356,7 +356,7 @@
   }
 }
 
-@media (min-width: 374px) and (max-width: 376px) {
+@media (max-width: 376px) {
   html {
     font-size: 55%;
   }
@@ -472,7 +472,7 @@
   }
 }
 
-@media (min-width: 281px) and (max-width: 321px) {
+@media (max-width: 321px) {
   html {
     font-size: 50%;
   }
