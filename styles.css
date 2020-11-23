@@ -43,7 +43,6 @@ h3 {
 }
 
 /*Parte de cima do site*/
-
 #background-header {
   background-color: #155263;
 }
@@ -54,7 +53,6 @@ h3 {
   line-height: 1rem;
   max-width: 1024px;
   margin: auto;
-
 }
 
 #img-mountain {
@@ -75,7 +73,6 @@ h3 {
   position: absolute;
   top: 90px;
   right: 300px;
-
 }
 
 .img-cloud-container-bottom {
@@ -85,14 +82,11 @@ h3 {
 }
 
 /************************/
-
 /*Parte do profile do site*/
-
 #profile-container {
   margin: 2.5rem auto auto;
   width: 100%;
   max-width: 1680px;
-
 }
 
 .txt-profile {
@@ -102,7 +96,6 @@ h3 {
 }
 
 /************************/
-
 /*A borda que separa o site*/
 .row {
   margin: 100px auto;
@@ -129,7 +122,6 @@ h3 {
 }
 
 /*Parte das skills do site*/
-
 #skill-container {
   margin: auto;
   width: 90%;
@@ -137,7 +129,6 @@ h3 {
 }
 
 /*Parte de skill/Programming */
-
 .programming-container {
   display: flex;
   align-items: center;
@@ -160,7 +151,6 @@ h3 {
 }
 
 /*Parte de skill/Videogame */
-
 .videogame-container {
   display: flex;
   flex-direction: row-reverse;
@@ -184,15 +174,12 @@ h3 {
 }
 
 /***************************/
-
 /*Parte do contato */
-
 #contato-container {
   line-height: 3.7rem;
   margin: 2.5rem auto 5rem;
   width: 100%;
   max-width: 1680px;
-
 }
 
 #button-contato {
@@ -215,9 +202,7 @@ h3 {
 }
 
 /*******************/
-
 /*Parte do rodape do site */
-
 #footer-container {
   line-height: 3rem;
   background-color: #16213e;
@@ -245,4 +230,5 @@ h3 {
   font-size: 1.5rem;
   padding-top: 2rem;
 }
+
 /*************************/
