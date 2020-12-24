@@ -1,110 +1,91 @@
-
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu site.</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Montserrat:wght@500&family=Sacramento&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="responsive.css">
-    <title>Andrew's Site.</title>
-  </head>
-  <body>
-
-    <header>
-      <div id="background-header">
-
-        <div id="header-container">
-
-          <div id="img-header">
-            <img class="img-cloud-container-top" src="cloud.png" alt="img-cloud">
-            <img class="img-cloud-container-bottom" src="cloud.png" alt="img-cloud">
-          </div>
-
-        <div class="txt-header">
-
-          <h1 >I'm Andrew.</h1>
-          <h2 >A programmer.</h2>
-
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Poiret+One&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div class="menu-bg">
+        <div class="menu" id="menu">
+            <div>
+                <a href="#menu"><h2>Andrew</h2></a>
+            </div>
+            <ul>
+                <li><a href="#sobre" class="sobre-li">Sobre</a></li>
+                <li><a href="#contato" class="contato-li">Contato</a></li>
+            </ul>
         </div>
-          <img id="img-mountain"src="mountain.png" alt="img-mountain" >
+    </div>
+
+    <main class="intro-bg">
+        <div class="intro">
+            <h1>Olá, eu sou André</h1>
+            <h2>Um programador</h2>
         </div>
-
-      </div>
-    </header>
-
-
-    <section id="profile-container">
-
-      <div class="img-profile">
-        <img src="myprofilephoto.png" alt="img-profile">
-      </div>
-
-      <div class="txt-profile">
-        <h2>Hello.</h2>
-        <p>I am brazilian, i'm 20 years old. I'm a programming student and this
-          is a website that i made to test my knowledge and expose them to the world.
-        </p>
-      </div>
-
+        <div class="circle">
+            
+        </div>
+    </main>
+    
+    <section class="sobre" id="sobre">
+        <div class="perfil">
+            <div>
+                <img src="imagens/profile.png" alt="perfil-img">
+            </div>
+            <div>
+                <h2>Olá.</h2>
+                <p>Sou brasileiro, tenho 20 anos. Sou estudante de programação e este é um site que fiz para testar meus conhecimentos e expô-los ao mundo.</p>
+            </div>
+        </div>
+        <hr>
+        <div class="curiosidade">
+            <div class="programar">
+                <div>
+                    <img src="imagens/computer.png" alt="programar-img">
+                </div>
+                <div class="txt-programar">    
+                    <h2>Programar</h2>
+                    <p>Aprendi a programar em 2019, mas só em 2020 que fiquei melhor e tenho me aprimorado a cada dia, 
+                    planejando projetos e terminando os mais sólidos.</p>
+                </div>
+            </div>
+            <hr>
+            <div class="bombeiro">
+                <div>
+                    <img src="imagens/bombeiro.png" alt="bombeiro-img">
+                </div>
+                <div class="txt-bombeiro">    
+                    <h2>Bombeiro</h2>
+                    <p>Pois é, saí de um extremo para o outro. Fiz um estágio 
+                        de bombeiro por 2 meses, foi uma experiencia única e muito gradificante.
+                        E agora estou na programação, acabei por me encontrar nesse mundo e pretendo
+                        ficar nele.  
+                    </p>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <hr class="row">
-
-    <section id="skill-container">
-      <div class="programming-container">
-
-        <div class="img-programming">
-          <img src="computer.png" alt="img-computer" width="75%" height="350px">
+    <section class="contato-bg" id="contato">
+        <div class="contato">
+            <div class="contato-info">
+                <h2>Mande email</h2>
+                <p>Caso tenha interesse, entre em contato.</p>
+            </div>
+            <form class="contato-form">
+                <input type="email" placeholder="Seu e-mail" >
+                <button type="submit"><a href="mailto:andreherculanoMB@gmail.com">enviar</a></button>
+            </form>
         </div>
-
-        <div class="txt-programming">
-          <h2>Programming</h2>
-          <p>I've learned how to programming in 2019, but only in 2020 that i got better at it 
-              and i've been improving each day :)</p>
-          </div>
-
-      </div>
-
-      <div class="videogame-container">
-
-        <div class="img-videogame">
-          <img src="videogame.gif" alt="gif-videogame" width="80%" height="330px" style="border-radius: 160px;">
-        </div>
-
-        <div class="txt-videogame">
-          <h2>Video game</h2>
-          <p>
-            In addition to programming, I love playing video games and i started doing it since 
-            i was a child and it lasts until today.
-            Playing games stimulates my creativity and ends up helping me a lot in programming.</p>
-        </div>
-
-      </div>
-
-      <hr class="row-bottom">
-
-      <div id="contato-container">
-
-        <h2>Get in touch.</h2>
-        <h3>Do you like games and programming as much as I do?</h3>
-        <p>If so, send me a message and let's chat about programming :)</p>
-        <a id="button-contato" href="mailto:andreherculanoMB@hmail.com">CONTACT ME</a>
-
-      </div>
-
     </section>
-
     <footer>
-      <div id="footer-container">
-      <div>
-        <a class="a-footer-left" href="#">Linkedin</a>
-        <a class="a-footer-right" href="tel:+55(92)982070963">Phone</a>
-      </div>
-        <p id="p-bottom">@Andrew</p>
-      </div>
+        <p>Andrew @ Todos os direitos reservados</p>
     </footer>
-
-  </body>
+</body>
+<script src="script/script.js"></script>
 </html>
