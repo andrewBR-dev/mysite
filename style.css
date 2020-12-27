@@ -283,11 +283,11 @@ footer p {
 
 @media (max-width: 426px) {
     h1 {
-        font-size: 8rem;
+        font-size: 7rem;
     }
 
     h2 {
-        font-size: 4.3rem;
+        font-size: 3.3rem;
     }
 
     p {
@@ -310,6 +310,10 @@ footer p {
         justify-content: space-between;
     }
 
+    .menu h2 {
+        font-size: 4.6rem;
+    }
+
     /* Intro */
 
     .intro-bg {
@@ -319,7 +323,7 @@ footer p {
     /* Sobre */
 
     .perfil img {
-        width: 100%;
+        width: 80%;
     }
 
     .perfil div > p {
@@ -333,7 +337,7 @@ footer p {
     }
 
     .programar img {
-        width: 100%;
+        width: 80%;
     }
 
     .txt-programar {
@@ -347,7 +351,7 @@ footer p {
     }
 
     .bombeiro img {
-        width: 100%;
+        width: 80%;
     }
 
     .txt-bombeiro {
@@ -356,15 +360,25 @@ footer p {
         padding: 0 0 10px 0;
     }
 
+
+    /* Contato */
+
+    .contato-info h2{
+        font-size: 3.7rem;
+    }    
+
+    .contato-form button a {
+        font-size: 2.5rem;
+    }
 }
 
 @media (max-width: 376px) {
     h1 {
-        font-size: 6.5rem
+        font-size: 5.5rem
     }
 
     h2 {
-        font-size: 4rem;
+        font-size: 2.5rem;
     }
 
     /* menu */
@@ -375,7 +389,7 @@ footer p {
     }
 
     .menu h2 {
-        font-size: 4.3rem;
+        font-size: 3.6rem;
     }
 
     .menu {
@@ -388,6 +402,10 @@ footer p {
         justify-content: space-between;
     }
 
+    .menu ul li a {
+        font-size: 3rem;
+    }
+
     /* Intro */
 
     .circle {
@@ -397,7 +415,7 @@ footer p {
 
     /* Sobre */
     .perfil img {
-        width: 100%;
+        width: 80%;
     }
 
     .perfil div > p {
@@ -423,5 +441,11 @@ footer p {
     .txt-bombeiro {
         width: 100%;
         padding: 0 0 10px 0;
+    }
+
+    /* Contato */
+
+    .contato-form button a {
+        font-size: 2.2rem;
     }
 }
