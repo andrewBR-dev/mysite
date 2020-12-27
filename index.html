@@ -25,8 +25,8 @@
 
     <main class="intro-bg">
         <div class="intro">
-            <h1>Olá, eu sou André</h1>
-            <h2>Um programador</h2>
+            <h1 class="h1">Olá, eu sou André</h1>
+            <h2 class="h2">Um programador</h2>
         </div>
         <div class="circle">
             
@@ -79,7 +79,7 @@
                 <p>Caso tenha interesse, entre em contato.</p>
             </div>
             <form class="contato-form">
-                <input type="email" placeholder="Seu e-mail" >
+                <input type="text" placeholder="Sua mensagem">
                 <button type="submit"><a href="mailto:andreherculanoMB@gmail.com">enviar</a></button>
             </form>
         </div>
@@ -88,5 +88,17 @@
         <p>Andrew @ Todos os direitos reservados</p>
     </footer>
 </body>
-<script src="script.js"></script>
+
+<script>
+// Animacao do titulo
+
+const titulo = document.querySelector('.h1');
+
+function typeWriter(elemento) {
+    const textoArray = elemento.innerHTML.split('');
+    console.log(textoArray);
+}
+
+typeWriter(titulo);
+</script>
 </html>
